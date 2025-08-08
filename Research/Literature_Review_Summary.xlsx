@@ -1,0 +1,19 @@
+Title,Objective/Methodology,Dataset,Evaluation Metric,Result,Limitation,Reviewed By
+Placeholder: LLM-Based Dynamic Survey Question Generation (2024),Prompt engineering with GPT-style model,Synthetic survey prompts,Human relevance rating; Diversity score,High relevance; moderate diversity,Not evaluated with real users,Member1
+Placeholder: Adaptive Question Selection using Reinforcement Learning (2024),RL policy to pick next question,Simulated respondent profiles,Completion rate; Info gain,Improved info gain vs baseline,Simulated data only,Member1
+Placeholder: Sentiment Classification on Educational Feedback (2024),Transformer fine-tuning,University course feedback,Accuracy; F1,Accuracy 0.90,Few classes; limited generalization,Member1
+Placeholder: Privacy-Preserving Survey Response Storage (2025),Differential privacy aggregation,Synthetic + small pilot,DP epsilon; Utility,Utility retained with ε=1.0,Scalability untested,Member1
+Placeholder: Multi-lingual Survey Question Generation (2025),mT5 generation fine-tune,Parallel survey corpora,BLEU; Human fluency,Fluency good in 5 langs,Lacks domain adaptation,Member1
+Placeholder: Zero-Shot Sentiment Analysis for Feedback Streams (2024),Instruction-tuned LLM zero-shot,Open feedback snippets,Macro F1,Competitive with small supervised,Fails on sarcasm,Member2
+Placeholder: Survey Answer Quality Detection via Text Embeddings (2025),Embedding clustering anomaly detection,Mixed-quality responses,Precision; Recall,High precision on spam,Recall low for subtle noise,Member2
+Placeholder: Comparative Study of MCQ Generation Techniques (2024),Rule-based vs neural vs LLM,Benchmark question sets,Human quality rubric,LLM highest quality,Cost & occasional hallucination,Member2
+Placeholder: Active Learning Loop for Survey Sentiment Models (2025),Uncertainty sampling cycles,Labeled + unlabeled feedback,F1 after iterations,F1 +6 points with AL,Labeling cost overhead,Member2
+Placeholder: Evaluating Bias in Generated Survey Questions (2025),Bias audit & counterfactual testing,Generated question pool,Bias score; Fairness delta,Bias reduced after filtering,Residual subtle stereotypes,Member2
+Placeholder: Lightweight On-Device Sentiment Model Distillation (2024),Knowledge distillation from LLM,Large + distilled models,Latency; F1,5x faster; minor F1 drop,Edge cases degrade,Member3
+Placeholder: Topic Modeling Pipeline for Open-Ended Survey Data (2024),BERTopic + clustering,Open-ended responses,Coherence; Purity,High coherence topics,Hard to name some topics,Member3
+Placeholder: Hybrid Rule+LLM Validation for Question Quality (2025),Static rules + LLM critique,Synthetic + curated questions,Rejection rate; Precision,High precision filtering,May reject creative forms,Member3
+Placeholder: Response Time & Engagement Prediction (2025),Gradient boosted trees over metadata,Interaction logs,MAE; AUC,AUC 0.82 predicting dropout,Needs larger live dataset,Member3
+Placeholder: Data Pipeline Design for AI-Driven Survey Platforms (2024),End-to-end ETL & schema design,Integrated logs + responses,Throughput; Freshness,Near-real-time ingestion,Security review pending,Member3
+
+# NOTE: These are placeholder entries. Replace each row with real sourced literature (title, authors, year). Do NOT submit placeholders.
+# After replacement, ensure years are within last 2 years and add proper citations in final report.

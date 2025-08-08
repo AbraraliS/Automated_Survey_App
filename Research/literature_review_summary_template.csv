@@ -1,0 +1,25 @@
+Title,Objective/Methodology,Dataset,Evaluation Metric,Result,Limitation,Reviewed By,Year,Source/DOI,Notes
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+# INSTRUCTIONS:
+# 1. Keep the header unchanged.
+# 2. One paper per row. Use recent (last 2 years) publications.
+# 3. Evaluation Metric: list primary metrics (e.g., Accuracy; F1; BLEU).
+# 4. Result: Provide numeric outcome (e.g., F1=0.87) or summary.
+# 5. Limitation: Briefly state main limitation authors mention.
+# 6. Reviewed By: Team member name.
+# 7. Source/DOI: Paste DOI link or URL.
+# 8. Remove these instruction lines before final submission if required.
